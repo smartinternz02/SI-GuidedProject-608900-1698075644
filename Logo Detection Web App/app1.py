@@ -9,6 +9,13 @@ from flask import Flask , request, render_template
 
 app = Flask(__name__)
 
+UPLOAD_FOLDER = 'uploads'
+app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
+
+if not os.path.exists(os.path.join(os.getcwd(), UPLOAD_FOLDER)):
+    os.makedirs(os.path.join(os.getcwd(), UPLOAD_FOLDER))
+
+
 model = load_model("Logo_classification.h5",compile=False)
                  
 @app.route('/')
