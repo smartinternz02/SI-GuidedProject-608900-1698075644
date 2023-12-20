@@ -22,8 +22,3 @@ License
 LogoAuthenticator is released under the MIT License. Feel free to use, modify, and distribute this project in accordance with the terms of the license.
 
 We look forward to your contributions and appreciate your efforts in making LogoAuthenticator a valuable tool for logo detection and authentication in the digital landscape. Together, let's contribute to a safer and more secure environment for businesses and consumers.
-
-
-
-
-
